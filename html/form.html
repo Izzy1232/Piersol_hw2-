@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Page</title>
+  <link rel="stylesheet" href="../css/styles.css"></a>
+</head>
+
+<form>
+  <h2>Form Page</h2>
+  <h4>Please provide your details</h4>
+
+  <label for username>Username:</label> <br>
+  <input type="text" name="username"> <br>
+
+  <label for password>Password:</label> <br>
+  <input type="password" name="password:">
+
+  <fieldset>
+    <legend>Join Our Membership Program:</legend>
+    <input type="radio" name="subscription" value="basic">
+    <label for="basic">Basic</label><br>
+    
+    <input type="radio" name="subscription" value="premium">
+    <label for="premium">Premium</label><br>
+    
+    <input type="radio" name="subscription" value="vip">
+    <label for="vip">VIP</label>
+  </fieldset><br>
+
+  <input type="checkbox" name="newsletter" value="newsletter">
+    <label for="newsletter">Sign up for Newsletter</label><br>
+        
+    <input type="checkbox" name="updates" value="updates">
+    <label for="updates">Receive Updates</label><br><br>
+
+    <label for="options">Choose your preference:</label><br>
+    <select id="options" name="options" multiple>
+        <option value="option1">Chocolate</option>
+        <option value="option2">Vanilla</option>
+        <option value="option3">Strawberry</option>
+        <option value="option4">Caramel</option>
+    </select><br><br>
+    
+    <label for="date">Choose your birthdate:</label><br>
+    <input type="date" name="date" required min="1910-01-01" max="2024-01-01"><br><br>
+    
+    <input type="submit" value="Submit">
+
+  <footer>
+    <br>
+    <a href="../index.html">Return to Home Page</a>
+  </footer>
+</form>
+
+</html>

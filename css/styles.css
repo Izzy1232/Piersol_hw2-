@@ -1,0 +1,31 @@
+h1,h2{
+  color:red;
+  font-family: 'Courier New';
+}
+body,p{
+  font-family: 'Calibri';
+} 
+ol{
+  list-style-type: lower-roman;
+}
+ul{
+  list-style-type: square;
+}
+a:link{
+  color:red
+}
+a:visited{
+  color:green
+}
+tr:nth-child(even){
+  background-color: lightgray;
+}
+tr:hover {
+  background-color: lightblue;
+}
+input[type=submit]:hover{
+  background-color:red
+}
+input[type=submit]:active{
+  background-color: green;
+}
